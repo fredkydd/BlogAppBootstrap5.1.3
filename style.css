@@ -1,0 +1,79 @@
+body {
+  /* background-color: #333;
+  color: #f5f5f5; */
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Nav Bar Content*/
+
+.logo {
+  height: 3.125rem;
+  width: 7.5rem;
+}
+.myNav {
+  background-color: rgba(227, 242, 253, 0.5);
+  backdrop-filter: blur(0.3rem);
+  box-shadow: 0rem 0.125rem 0.5rem rgba(0, 0, 0, 0.3) !important;
+}
+/* nav {
+  background-image: linear-gradient(to right, #80deea, #66cccd);
+} */
+
+/* Body Content */
+
+.main-header {
+  background-image: url(pictures/La-Casa-de-Papel-SHB.webp);
+  background-size: cover;
+  padding-top: 9.375rem;
+  padding-bottom: 6.25rem;
+}
+.default-main-header {
+  background-image: url(pictures/La-Casa-de-Papel-SHB.webp);
+  /* width: 75rem;
+  height: 25rem; */
+  background-size: cover;
+  padding-top: 6.25rem;
+  padding-bottom: 3.125rem;
+}
+.cardHeaderPicture {
+  width: 18rem;
+  height: 10rem;
+  object-fit: cover;
+}
+/* .shadow :hover {
+  box-shadow: 0.125rem 0.125rem 0.75rem rgba(0, 0, 0, 0.3) !important;
+  transition-duration: 0.5s;
+} */
+.shadow {
+  box-shadow: 0.125rem 0.125rem 0.75rem rgba(0, 0, 0, 0.3) !important;
+  transition-duration: 0.5s;
+}
+.header-text-holder,
+.subscribe-button {
+  color: #fff;
+  text-align: center;
+}
+.default-header-text-holder {
+  color: #fff;
+}
+.home-body-content {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.default-home-body-content {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+/* fallback page */
+.linkNoUnderline {
+  color: #333;
+  text-decoration: none;
+}
+
+/* post page */
+.postPic {
+  width: 45rem;
+  height: 15rem;
+}
