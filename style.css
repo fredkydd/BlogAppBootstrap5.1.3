@@ -38,7 +38,7 @@ body {
   padding-bottom: 3.125rem;
 }
 .cardHeaderPicture {
-  width: 18rem;
+  /* width: 18rem; */
   height: 10rem;
   object-fit: cover;
 }
